@@ -1,0 +1,144 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: RumorNet Misinformation Detection API - Async Processing with Bedrock (v1.5)
+
+Parameters:
+  Environment:
+    Type: String
+    Default: prod
+    AllowedValues: [dev, staging, prod]
+    Description: Deployment environment
+
+Globals:
+  Function:
+    Timeout: 900  # 15 minutes (maximum for Lambda)
+    MemorySize: 3008
+    Environment:
+      Variables:
+        ENVIRONMENT: !Ref Environment
+        LLM_PROVIDER: bedrock
+        BEDROCK_REGION: !Ref AWS::Region
+        BEDROCK_MODEL_ID: us.anthropic.claude-3-5-haiku-20241022-v1:0
+        BEDROCK_EMBEDDING_MODEL_ID: cohere.embed-v4:0
+        RESULTS_BUCKET: rumornet
+
+Conditions:
+  IsProduction: !Equals [!Ref Environment, prod]
+
+Resources:
+  # ------------------------------------------------------
+  # Managed Policy for S3 and Bedrock Access
+  # ------------------------------------------------------
+  RumorNetAccessPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Action:
+              - s3:ListBucket
+              - s3:GetObject
+              - s3:PutObject
+              - s3:DeleteObject
+            Resource:
+              - arn:aws:s3:::rumornet
+              - arn:aws:s3:::rumornet/*
+          - Effect: Allow
+            Action:
+              - bedrock:InvokeModel
+              - bedrock:InvokeModelWithResponseStream
+              - bedrock:InvokeAgent
+            Resource:
+              - !Sub "arn:aws:bedrock:*::foundation-model/*"
+              - !Sub "arn:aws:bedrock:*:${AWS::AccountId}:inference-profile/*"
+          - Effect: Allow
+            Action:
+              - logs:CreateLogGroup
+              - logs:CreateLogStream
+              - logs:PutLogEvents
+            Resource: "*"
+
+  # ------------------------------------------------------
+  # Lambda Function (Container Image)
+  # ------------------------------------------------------
+  MisinformationDetectionFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "${AWS::StackName}-misinformation-detection-${Environment}"
+      PackageType: Image
+      ImageConfig:
+        Command: ["lambda_handler_async.lambda_handler"]
+      Description: RumorNet misinformation detection with ASYNC processing (container image)
+      Policies:
+        - !Ref RumorNetAccessPolicy
+        - Statement:
+            - Effect: Allow
+              Action:
+                - lambda:InvokeFunction
+                - lambda:InvokeAsync
+              Resource: !Sub "arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${AWS::StackName}-*"
+      Events:
+        AnalyzeApi:
+          Type: Api
+          Properties:
+            Path: /analyze
+            Method: post
+        StatusApi:
+          Type: Api
+          Properties:
+            Path: /status/{job_id}
+            Method: get
+        ResultsApi:
+          Type: Api
+          Properties:
+            Path: /results/{job_id}
+            Method: get
+        HealthApi:
+          Type: Api
+          Properties:
+            Path: /health
+            Method: get
+    Metadata:
+      Dockerfile: Dockerfile
+      DockerContext: .
+      DockerTag: latest
+
+  # API Gateway is created implicitly by SAM from Events
+
+  # ------------------------------------------------------
+  # CloudWatch Log Group
+  # ------------------------------------------------------
+  MisinformationDetectionLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: !Sub "/aws/lambda/${MisinformationDetectionFunction}"
+      RetentionInDays: !If [IsProduction, 30, 14]
+
+# ------------------------------------------------------
+# Outputs
+# ------------------------------------------------------
+Outputs:
+  ApiGatewayUrl:
+    Description: "API Gateway endpoint URL"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod"
+    Export:
+      Name: !Sub "${AWS::StackName}-ApiUrl"
+
+  MisinformationDetectionFunctionArn:
+    Description: "Lambda Function ARN"
+    Value: !GetAtt MisinformationDetectionFunction.Arn
+    Export:
+      Name: !Sub "${AWS::StackName}-FunctionArn"
+
+  MisinformationDetectionFunctionName:
+    Description: "Lambda Function Name"
+    Value: !Ref MisinformationDetectionFunction
+    Export:
+      Name: !Sub "${AWS::StackName}-FunctionName"
+
+  ResultsBucket:
+    Description: "S3 bucket for storing analysis results"
+    Value: rumornet
+    Export:
+      Name: !Sub "${AWS::StackName}-ResultsBucket"

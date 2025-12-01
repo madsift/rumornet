@@ -1,0 +1,15 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "rumornet"
+resolve_s3 = true
+s3_prefix = "rumornet"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "Environment=\"dev\""
+image_repositories = ["MisinformationDetectionFunction=243284855043.dkr.ecr.us-east-1.amazonaws.com/rumornet96adfb04/misinformationdetectionfunction245d4d99repo"]
+
+[default.global.parameters]
+region = "us-east-1"

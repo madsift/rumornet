@@ -1,0 +1,38 @@
+# Lambda deployment requirements for Bedrock-based misinformation detection
+
+# Core AWS
+boto3>=1.34.0
+botocore>=1.34.0
+
+# LLM Framework
+strands-agents>=1.9.0
+strands-agents-tools
+
+# Data processing
+pandas==2.1.4
+numpy==1.26.4
+
+# NLP and ML
+bertopic>=0.16.0
+umap-learn>=0.5.0
+hdbscan>=0.8.0
+scikit-learn
+
+# Language detection
+langdetect>=1.0.9
+
+# Pydantic for data validation
+pydantic>=2.0.0
+
+# Date/time utilities
+python-dateutil>=2.8.0
+
+# Async support
+asyncio>=3.4.3
+
+# HTTP client (for potential external API calls)
+requests>=2.31.0
+httpx>=0.25.0
+
+# Logging and monitoring
+python-json-logger>=2.0.0

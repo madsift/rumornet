@@ -1,0 +1,8 @@
+{
+  "httpMethod": "POST",
+  "path": "/analyze",
+  "body": "{\"demo_file\":\"demo1.json\",\"format\":\"reddit\",\"use_batch\":true}",
+  "headers": {
+    "Content-Type": "application/json"
+  }
+}
