@@ -1,0 +1,1901 @@
+{
+  "execution_id": "exec_1764396352",
+  "timestamp": "2025-11-29T11:50:52.649630",
+  "total_posts": 0,
+  "posts_analyzed": 132,
+  "misinformation_detected": 6,
+  "high_risk_posts": 5,
+  "execution_time_ms": 290100.638,
+  "agent_statuses": {},
+  "full_report": {
+    "executive_summary": {
+      "total_posts_analyzed": 132,
+      "misinformation_detected": 6,
+      "high_risk_posts": 5,
+      "critical_posts": 0,
+      "unique_users": 5,
+      "users_posting_misinfo": 2,
+      "patterns_detected": 9,
+      "topics_identified": 3,
+      "report_generated": "2025-11-29T11:50:52.627224"
+    },
+    "high_priority_posts": [
+      {
+        "post_id": "14n9gf7",
+        "user_id": "user_42486",
+        "username": "user_42486",
+        "timestamp": "2023-07-01 03:19:08",
+        "platform": "reddit",
+        "subreddit": "GlobalTalk",
+        "text_preview": "Jair Bolsonaro banned from holding office in Brazil for 8 years",
+        "full_text_length": 63,
+        "engagement": {
+          "upvotes": 84,
+          "comments": 2,
+          "shares": 0
+        },
+        "analysis": {
+          "verdict": "MISINFORMATION",
+          "confidence": 0.9,
+          "risk_level": "HIGH",
+          "detected_language": "en",
+          "patterns": [
+            "false_authority"
+          ],
+          "manipulation_tactics": [
+            "political_framing"
+          ],
+          "specific_examples": [
+            {
+              "pattern": "false_authority",
+              "text_snippet": "Jair Bolsonaro banned from holding office",
+              "context": "Jair Bolsonaro banned from holding office in Brazil for 8 years",
+              "start_char": 0,
+              "end_char": 41,
+              "confidence": 0.3
+            }
+          ]
+        },
+        "recommended_action": "URGENT: Add warning label, reduce algorithmic amplification, queue for review"
+      },
+      {
+        "post_id": "14tdtdl",
+        "user_id": "user_42486",
+        "username": "user_42486",
+        "timestamp": "2023-07-08 01:34:53",
+        "platform": "reddit",
+        "subreddit": "GlobalTalk",
+        "text_preview": "As Brazil surpasses 200 million people its population growth is slowest since 1872",
+        "full_text_length": 82,
+        "engagement": {
+          "upvotes": 25,
+          "comments": 2,
+          "shares": 0
+        },
+        "analysis": {
+          "verdict": "MISINFORMATION",
+          "confidence": 0.9,
+          "risk_level": "HIGH",
+          "detected_language": "en",
+          "patterns": [
+            "cherry_picking"
+          ],
+          "manipulation_tactics": [
+            "statistical_manipulation"
+          ],
+          "specific_examples": [
+            {
+              "pattern": "cherry_picking",
+              "text_snippet": "population growth is slowest since 1872",
+              "context": "As Brazil surpasses 200 million people its population growth is slowest since 1872",
+              "start_char": 43,
+              "end_char": 82,
+              "confidence": 0.5
+            }
+          ]
+        },
+        "recommended_action": "URGENT: Add warning label, reduce algorithmic amplification, queue for review"
+      },
+      {
+        "post_id": "1bez6i4",
+        "user_id": "user_42486",
+        "username": "user_42486",
+        "timestamp": "2024-03-15 07:17:00",
+        "platform": "reddit",
+        "subreddit": "GlobalTalk",
+        "text_preview": "On 6th anniversary of Rio de Janeiro Councilwoman Marielle Franco’s murder, motive and mastermind remain unknown",
+        "full_text_length": 112,
+        "engagement": {
+          "upvotes": 3,
+          "comments": 0,
+          "shares": 0
+        },
+        "analysis": {
+          "verdict": "TRUE",
+          "confidence": 0.8,
+          "risk_level": "HIGH",
+          "detected_language": "en",
+          "patterns": [
+            "emotional_manipulation"
+          ],
+          "manipulation_tactics": [
+            "mystery_amplification"
+          ],
+          "specific_examples": [
+            {
+              "pattern": "emotional_manipulation",
+              "text_snippet": "motive and mastermind remain unknown",
+              "context": "de Janeiro Councilwoman Marielle Franco’s murder, motive and mastermind remain unknown",
+              "start_char": 76,
+              "end_char": 112,
+              "confidence": 0.8
+            }
+          ]
+        },
+        "recommended_action": "URGENT: Add warning label, reduce algorithmic amplification, queue for review"
+      },
+      {
+        "post_id": "1c7199j",
+        "user_id": "user_85766",
+        "username": "user_85766",
+        "timestamp": "2024-04-18 19:45:11",
+        "platform": "reddit",
+        "subreddit": "GlobalTalk",
+        "text_preview": "Israeli Settlers in West Bank Kill 2 Palestinians",
+        "full_text_length": 49,
+        "engagement": {
+          "upvotes": 27,
+          "comments": 8,
+          "shares": 0
+        },
+        "analysis": {
+          "verdict": "TRUE",
+          "confidence": 0.8,
+          "risk_level": "HIGH",
+          "detected_language": "en",
+          "patterns": [
+            "emotional_manipulation"
+          ],
+          "manipulation_tactics": [
+            "conflict_sensationalism"
+          ],
+          "specific_examples": [
+            {
+              "pattern": "emotional_manipulation",
+              "text_snippet": "Israeli Settlers in West Bank Kill 2 Palestinians",
+              "context": "Israeli Settlers in West Bank Kill 2 Palestinians",
+              "start_char": 0,
+              "end_char": 49,
+              "confidence": 0.8
+            }
+          ]
+        },
+        "recommended_action": "URGENT: Add warning label, reduce algorithmic amplification, queue for review"
+      },
+      {
+        "post_id": "16ult7y",
+        "user_id": "user_64894",
+        "username": "user_64894",
+        "timestamp": "2023-09-29 01:17:43",
+        "platform": "reddit",
+        "subreddit": "GlobalTalk",
+        "text_preview": "[Armenia] Age-old Christian Community Decimated",
+        "full_text_length": 47,
+        "engagement": {
+          "upvotes": 22,
+          "comments": 1,
+          "shares": 0
+        },
+        "analysis": {
+          "verdict": "TRUE",
+          "confidence": 0.7,
+          "risk_level": "HIGH",
+          "detected_language": "en",
+          "patterns": [
+            "emotional_manipulation"
+          ],
+          "manipulation_tactics": [
+            "religious_persecution_narrative"
+          ],
+          "specific_examples": [
+            {
+              "pattern": "emotional_manipulation",
+              "text_snippet": "Christian Community Decimated",
+              "context": "[Armenia] Age-old Christian Community Decimated",
+              "start_char": 18,
+              "end_char": 47,
+              "confidence": 0.8
+            }
+          ]
+        },
+        "recommended_action": "URGENT: Add warning label, reduce algorithmic amplification, queue for review"
+      }
+    ],
+    "top_offenders": [
+      {
+        "user_id": "user_64894",
+        "username": "user_64894",
+        "statistics": {
+          "total_posts": 96,
+          "misinformation_posts": 4,
+          "high_confidence_misinfo": 0,
+          "misinformation_rate": "4.2%",
+          "avg_confidence": 0.24947916666666659
+        },
+        "activity_period": {
+          "first_seen": "2023-09-04 23:35:54",
+          "last_seen": "2024-05-17 02:42:11"
+        },
+        "patterns_used": [
+          "emotional_manipulation",
+          "false_authority",
+          "ad_hominem",
+          "cherry_picking",
+          "conspiracy_theory",
+          "false_dichotomy",
+          "slippery_slope",
+          "bandwagon",
+          "anecdotal_evidence"
+        ],
+        "manipulation_tactics": [
+          "fear_mongering",
+          "pseudoscience_marketing",
+          "conflict_escalation",
+          "media_control",
+          "humanitarian_crisis_narrative",
+          "religious_persecution_narrative",
+          "displacement_narrative",
+          "cultural_destruction_narrative",
+          "character_assassination",
+          "inflammatory_language",
+          "exaggeration",
+          "selective_reporting",
+          "geopolitical_speculation",
+          "oversimplification",
+          "territorial_aggression",
+          "shock_value",
+          "speculation",
+          "appeal_to_authority",
+          "diplomatic_tension_escalation",
+          "expert_citation",
+          "character_attack",
+          "historical_guilt",
+          "personal_accusation"
+        ],
+        "languages": [
+          "en",
+          "da",
+          "unknown"
+        ],
+        "recent_posts": [
+          {
+            "post_id": "16f0sth",
+            "timestamp": "2023-09-10 21:50:46",
+            "text_preview": "New Insights: Could Weight Lifting Be the Latest Secret to Youthful Skin?",
+            "verdict": false,
+            "confidence": 0.5,
+            "risk_level": "LOW",
+            "patterns": [
+              "false_authority"
+            ]
+          },
+          {
+            "post_id": "16hf8ea",
+            "timestamp": "2023-09-13 14:14:53",
+            "text_preview": "The Effect of Physical Exercise on Memory: A Deep Dive into the Science",
+            "verdict": false,
+            "confidence": 0.6,
+            "risk_level": "MODERATE",
+            "patterns": []
+          },
+          {
+            "post_id": "16onbj9",
+            "timestamp": "2023-09-22 02:28:59",
+            "text_preview": "Human Rights Defender of Artsakh: Streets of Stepanakert are Filled with Refugees",
+            "verdict": false,
+            "confidence": 0.6,
+            "risk_level": "MODERATE",
+            "patterns": [
+              "emotional_manipulation"
+            ]
+          },
+          {
+            "post_id": "16zowzf",
+            "timestamp": "2023-10-04 22:37:40",
+            "text_preview": "Unlock Impressive Health Benefits with a Single Garlic Clove Daily",
+            "verdict": false,
+            "confidence": 0.6,
+            "risk_level": "MODERATE",
+            "patterns": [
+              "false_authority"
+            ]
+          }
+        ],
+        "recommended_action": "MONITOR: Track for pattern changes"
+      },
+      {
+        "user_id": "user_42486",
+        "username": "user_42486",
+        "statistics": {
+          "total_posts": 24,
+          "misinformation_posts": 2,
+          "high_confidence_misinfo": 2,
+          "misinformation_rate": "8.3%",
+          "avg_confidence": 0.7958333333333333
+        },
+        "activity_period": {
+          "first_seen": "2023-07-01 03:19:08",
+          "last_seen": "2024-06-15 08:43:05"
+        },
+        "patterns_used": [
+          "false_authority",
+          "cherry_picking",
+          "emotional_manipulation",
+          "bandwagon",
+          "slippery_slope"
+        ],
+        "manipulation_tactics": [
+          "political_framing",
+          "statistical_manipulation",
+          "political_tension_amplification",
+          "public_perception_management",
+          "fear_mongering",
+          "fear_escalation",
+          "mystery_amplification"
+        ],
+        "languages": [
+          "en"
+        ],
+        "recent_posts": [
+          {
+            "post_id": "14n9gf7",
+            "timestamp": "2023-07-01 03:19:08",
+            "text_preview": "Jair Bolsonaro banned from holding office in Brazil for 8 years",
+            "verdict": false,
+            "confidence": 0.9,
+            "risk_level": "HIGH",
+            "patterns": [
+              "false_authority"
+            ]
+          },
+          {
+            "post_id": "14tdtdl",
+            "timestamp": "2023-07-08 01:34:53",
+            "text_preview": "As Brazil surpasses 200 million people its population growth is slowest since 1872",
+            "verdict": false,
+            "confidence": 0.9,
+            "risk_level": "HIGH",
+            "patterns": [
+              "cherry_picking"
+            ]
+          }
+        ],
+        "recommended_action": "MONITOR: Track for pattern changes"
+      },
+      {
+        "user_id": "user_10705",
+        "username": "user_10705",
+        "statistics": {
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "high_confidence_misinfo": 0,
+          "misinformation_rate": "0.0%",
+          "avg_confidence": 0.8
+        },
+        "activity_period": {
+          "first_seen": "2024-06-07 05:25:07",
+          "last_seen": "2024-06-07 05:25:07"
+        },
+        "patterns_used": [],
+        "manipulation_tactics": [],
+        "languages": [
+          "en"
+        ],
+        "recent_posts": [],
+        "recommended_action": "MONITOR: Track for pattern changes"
+      },
+      {
+        "user_id": "sanduskythrowaway600",
+        "username": "sanduskythrowaway600",
+        "statistics": {
+          "total_posts": 4,
+          "misinformation_posts": 0,
+          "high_confidence_misinfo": 0,
+          "misinformation_rate": "0.0%",
+          "avg_confidence": 0.825
+        },
+        "activity_period": {
+          "first_seen": "2024-06-01 23:15:01",
+          "last_seen": "2024-06-06 12:31:18"
+        },
+        "patterns_used": [
+          "conspiracy_theory"
+        ],
+        "manipulation_tactics": [
+          "doom_narrative"
+        ],
+        "languages": [
+          "en"
+        ],
+        "recent_posts": [],
+        "recommended_action": "MONITOR: Track for pattern changes"
+      },
+      {
+        "user_id": "user_85766",
+        "username": "user_85766",
+        "statistics": {
+          "total_posts": 7,
+          "misinformation_posts": 0,
+          "high_confidence_misinfo": 0,
+          "misinformation_rate": "0.0%",
+          "avg_confidence": 0.7999999999999999
+        },
+        "activity_period": {
+          "first_seen": "2024-02-01 22:38:35",
+          "last_seen": "2024-05-17 02:58:49"
+        },
+        "patterns_used": [
+          "cherry_picking",
+          "emotional_manipulation"
+        ],
+        "manipulation_tactics": [
+          "statistical_dramatization",
+          "fear_mongering",
+          "conflict_sensationalism"
+        ],
+        "languages": [
+          "en"
+        ],
+        "recent_posts": [],
+        "recommended_action": "MONITOR: Track for pattern changes"
+      }
+    ],
+    "temporal_analysis": {
+      "status": "active",
+      "daily_trends": [
+        {
+          "date": "2023-07-01",
+          "total_posts": 1,
+          "misinformation_posts": 1,
+          "misinfo_rate": "100.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_authority",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-07-08",
+          "total_posts": 1,
+          "misinformation_posts": 1,
+          "misinfo_rate": "100.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "cherry_picking",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-08-03",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-08-12",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-08-19",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-04",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-08",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "bandwagon",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-10",
+          "total_posts": 1,
+          "misinformation_posts": 1,
+          "misinfo_rate": "100.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_authority",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-13",
+          "total_posts": 1,
+          "misinformation_posts": 1,
+          "misinfo_rate": "100.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-15",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-16",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-18",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-19",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              2
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-21",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_authority",
+              2
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-22",
+          "total_posts": 3,
+          "misinformation_posts": 1,
+          "misinfo_rate": "33.3%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-24",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-25",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-26",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-27",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-28",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-09-29",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-09-30",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-01",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-02",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-03",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              2
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-04",
+          "total_posts": 6,
+          "misinformation_posts": 1,
+          "misinfo_rate": "16.7%",
+          "unique_users": 2,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              2
+            ],
+            [
+              "ad_hominem",
+              2
+            ],
+            [
+              "false_authority",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-05",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "cherry_picking",
+              1
+            ],
+            [
+              "false_authority",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-06",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "cherry_picking",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-07",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-08",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "conspiracy_theory",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-09",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-10",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_dichotomy",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-11",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "slippery_slope",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-12",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_authority",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-13",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-15",
+          "total_posts": 3,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 2,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-16",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-17",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-18",
+          "total_posts": 3,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-19",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-20",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-21",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-22",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-23",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-24",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-25",
+          "total_posts": 3,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-26",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "bandwagon",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-10-27",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-28",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-29",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-30",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-10-31",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-01",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 2,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-02",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-04",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_authority",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2023-11-05",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-06",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-07",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-09",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-10",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-12",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-14",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-18",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-11-26",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-12-12",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2023-12-14",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "slippery_slope",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-01-17",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-02-01",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-02-02",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-02-14",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "cherry_picking",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-02-25",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-02-26",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-02-27",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "bandwagon",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-03-01",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-03-15",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-04-11",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_dichotomy",
+              2
+            ]
+          ]
+        },
+        {
+          "date": "2024-04-13",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-04-18",
+          "total_posts": 3,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 2,
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              3
+            ],
+            [
+              "false_dichotomy",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-04-24",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "false_authority",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-05-01",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-05-12",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": [
+            [
+              "ad_hominem",
+              1
+            ],
+            [
+              "emotional_manipulation",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-05-17",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 2,
+          "top_patterns": [
+            [
+              "anecdotal_evidence",
+              1
+            ]
+          ]
+        },
+        {
+          "date": "2024-06-01",
+          "total_posts": 3,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 2,
+          "top_patterns": [
+            [
+              "conspiracy_theory",
+              2
+            ]
+          ]
+        },
+        {
+          "date": "2024-06-06",
+          "total_posts": 2,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-06-07",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-06-08",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-06-11",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        },
+        {
+          "date": "2024-06-15",
+          "total_posts": 1,
+          "misinformation_posts": 0,
+          "misinfo_rate": "0.0%",
+          "unique_users": 1,
+          "top_patterns": []
+        }
+      ],
+      "trend_summary": {
+        "total_days": 88,
+        "peak_misinfo_day": "2023-07-01",
+        "avg_daily_posts": 1.5
+      }
+    },
+    "topic_analysis": {
+      "status": "active",
+      "topics": [
+        {
+          "topic_name": "health_remarkable_arnold",
+          "total_posts": 37,
+          "misinformation_posts": 3,
+          "high_confidence_misinfo": 0,
+          "misinformation_rate": "8.1%",
+          "unique_users": 2,
+          "avg_confidence": 0.3027027027027028,
+          "keywords": [
+            "health",
+            "remarkable",
+            "arnold",
+            "exercise",
+            "schwarzenegger",
+            "weight",
+            "advantages",
+            "remarkable health",
+            "sleep",
+            "stress"
+          ],
+          "percentage": 59.09090909090909,
+          "representative_docs": [
+            "The Remarkable Health Benefits of Mushrooms",
+            "The Remarkable Health Perks of Pomegranate",
+            "The Remarkable Health Perks of Pomegranate"
+          ],
+          "top_patterns": [
+            [
+              "false_authority",
+              3
+            ],
+            [
+              "conspiracy_theory",
+              2
+            ],
+            [
+              "bandwagon",
+              1
+            ]
+          ],
+          "recent_posts": [
+            {
+              "post_id": "17p48r2",
+              "user_id": "user_64894",
+              "timestamp": "2023-11-06 22:41:37",
+              "text_preview": "TikTok's emerging 'Silent Walking' trend could have real advantages for mental health",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "17rf4ef",
+              "user_id": "user_64894",
+              "timestamp": "2023-11-09 23:12:55",
+              "text_preview": "15 Fruits to Elevate Your Weight Loss Journey",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "17tmizi",
+              "user_id": "user_64894",
+              "timestamp": "2023-11-12 23:28:17",
+              "text_preview": "Schwarzenegger and Stallone's Legendary Competition Resurfaces Unexpectedly",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "17uf996",
+              "user_id": "user_64894",
+              "timestamp": "2023-11-14 01:05:28",
+              "text_preview": "Unlocking Restful Slumber with Yoga: Best Poses for Enhanced Sleep Quality",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "17ux5kn",
+              "user_id": "user_64894",
+              "timestamp": "2023-11-14 15:34:48",
+              "text_preview": "Rucking: The Ultimate Fitness Trek for Lifelong Strength and Health",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            }
+          ],
+          "risk_assessment": "LOW"
+        },
+        {
+          "topic_name": "brazil_brazils_amazon",
+          "total_posts": 22,
+          "misinformation_posts": 2,
+          "high_confidence_misinfo": 2,
+          "misinformation_rate": "9.1%",
+          "unique_users": 1,
+          "avg_confidence": 0.7954545454545454,
+          "keywords": [
+            "brazil",
+            "brazils",
+            "amazon",
+            "indigenous",
+            "lula",
+            "territory",
+            "amid",
+            "yanomami indigenous",
+            "indigenous territory",
+            "presence"
+          ],
+          "percentage": 23.484848484848484,
+          "representative_docs": [
+            "U.S. Secretary of State Antony Blinken, Lula discuss Israel amid tensions between Lula and Netanyahu governments",
+            "Brazil announces permanent military presence in embattled Yanomami Indigenous Territory",
+            "Brazil announces permanent military presence in embattled Yanomami Indigenous Territory"
+          ],
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              3
+            ],
+            [
+              "bandwagon",
+              2
+            ],
+            [
+              "false_authority",
+              1
+            ],
+            [
+              "cherry_picking",
+              1
+            ]
+          ],
+          "recent_posts": [
+            {
+              "post_id": "1b0ta3f",
+              "user_id": "user_42486",
+              "timestamp": "2024-02-27 05:25:47",
+              "text_preview": "Hundreds of thousands rally in São Paulo to support Bolsonaro amid coup investigation",
+              "verdict": "TRUE",
+              "confidence": 0.7
+            },
+            {
+              "post_id": "1d55j9f",
+              "user_id": "user_42486",
+              "timestamp": "2024-06-01 04:36:27",
+              "text_preview": "Brazil permanently withdraws its ambassador from Israel",
+              "verdict": "TRUE",
+              "confidence": 0.9
+            },
+            {
+              "post_id": "1db3bfm",
+              "user_id": "user_42486",
+              "timestamp": "2024-06-08 21:45:42",
+              "text_preview": "Investigated for soccer betting scandal, Brazil’s Lucas Paquetá still tipped to play in Copa América",
+              "verdict": "TRUE",
+              "confidence": 0.8
+            },
+            {
+              "post_id": "1ddgq3g",
+              "user_id": "user_42486",
+              "timestamp": "2024-06-11 23:19:52",
+              "text_preview": "Spanish soccer fans sentenced to prison for racial abuse of Brazil striker Vinícius Júnior",
+              "verdict": "TRUE",
+              "confidence": 0.9
+            },
+            {
+              "post_id": "1dg5u5y",
+              "user_id": "user_42486",
+              "timestamp": "2024-06-15 08:43:05",
+              "text_preview": "Brazil granted record number of refugee applications in 2023",
+              "verdict": "TRUE",
+              "confidence": 0.7
+            }
+          ],
+          "risk_assessment": "LOW"
+        },
+        {
+          "topic_name": "armenia_azerbaijan_nagornokarabakh",
+          "total_posts": 20,
+          "misinformation_posts": 1,
+          "high_confidence_misinfo": 0,
+          "misinformation_rate": "5.0%",
+          "unique_users": 1,
+          "avg_confidence": 0.4925,
+          "keywords": [
+            "armenia",
+            "azerbaijan",
+            "nagornokarabakh",
+            "artsakh",
+            "media",
+            "armenia armenia",
+            "armenian",
+            "azerbaijani",
+            "cover hostilities",
+            "cover"
+          ],
+          "percentage": 17.424242424242426,
+          "representative_docs": [
+            "[Armenia] Azerbaijani media declares Armenian model Armine Arutyunyan a \"terrorist\"",
+            "[Armenia] Armenia: Nations in Transit 2024 Country Report | Freedom House",
+            "[Armenia] Armenia: Nations in Transit 2024 Country Report | Freedom House"
+          ],
+          "top_patterns": [
+            [
+              "emotional_manipulation",
+              9
+            ],
+            [
+              "false_authority",
+              3
+            ],
+            [
+              "ad_hominem",
+              2
+            ],
+            [
+              "cherry_picking",
+              2
+            ],
+            [
+              "conspiracy_theory",
+              1
+            ]
+          ],
+          "recent_posts": [
+            {
+              "post_id": "172wlx8",
+              "user_id": "user_64894",
+              "timestamp": "2023-10-08 19:12:14",
+              "text_preview": "Russia Plans to Open a Consulate General in Syunik, Armenia",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "1758xcn",
+              "user_id": "user_64894",
+              "timestamp": "2023-10-11 16:16:09",
+              "text_preview": "After Nagorno-Karabakh, Azerbaijan eyes a strategic strip of Armenia",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "1c355pv",
+              "user_id": "user_64894",
+              "timestamp": "2024-04-13 23:55:19",
+              "text_preview": "[Armenia] Armenia: Nations in Transit 2024 Country Report | Freedom House",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "1c6h4mz",
+              "user_id": "user_64894",
+              "timestamp": "2024-04-18 02:21:39",
+              "text_preview": "Azerbaijan slams 'threats' from France after Paris recalls ambassador",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            },
+            {
+              "post_id": "1cbxfho",
+              "user_id": "user_64894",
+              "timestamp": "2024-04-24 20:53:58",
+              "text_preview": "[Armenia] Armenia: Nations in Transit 2024 Country Report | Freedom House",
+              "verdict": "TRUE",
+              "confidence": 0.0
+            }
+          ],
+          "risk_assessment": "LOW"
+        }
+      ],
+      "summary": {
+        "total_topics": 3,
+        "high_risk_topics": 0,
+        "topics_with_misinfo": 3
+      }
+    },
+    "pattern_breakdown": [
+      {
+        "pattern_name": "emotional_manipulation",
+        "total_occurrences": 20,
+        "unique_users": 3,
+        "first_seen": "2023-08-19 07:20:07",
+        "last_seen": "2024-05-12 00:11:35",
+        "recent_examples": [
+          {
+            "post_id": "16zitnv",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-04 17:44:11",
+            "confidence": 0.7
+          },
+          {
+            "post_id": "179tqpy",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-17 16:43:10",
+            "confidence": 0.7
+          },
+          {
+            "post_id": "17ehj8g",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-23 18:52:18",
+            "confidence": 0.6
+          },
+          {
+            "post_id": "1c6h4mz",
+            "user_id": "user_64894",
+            "timestamp": "2024-04-18 02:21:39",
+            "confidence": 0.6
+          },
+          {
+            "post_id": "1cpkx89",
+            "user_id": "user_64894",
+            "timestamp": "2024-05-12 00:11:35",
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "pattern_name": "false_authority",
+        "total_occurrences": 9,
+        "unique_users": 2,
+        "first_seen": "2023-07-01 03:19:08",
+        "last_seen": "2024-04-24 20:53:58",
+        "recent_examples": [
+          {
+            "post_id": "16zowzf",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-04 22:37:40",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "170es7v",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-05 18:47:02",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "175mh1p",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-12 03:23:37",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "17mypuo",
+            "user_id": "user_64894",
+            "timestamp": "2023-11-04 00:16:22",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "1cbxfho",
+            "user_id": "user_64894",
+            "timestamp": "2024-04-24 20:53:58",
+            "confidence": 0.4
+          }
+        ]
+      },
+      {
+        "pattern_name": "cherry_picking",
+        "total_occurrences": 4,
+        "unique_users": 3,
+        "first_seen": "2023-07-08 01:34:53",
+        "last_seen": "2023-10-06 19:26:35",
+        "recent_examples": [
+          {
+            "post_id": "14tdtdl",
+            "user_id": "user_42486",
+            "timestamp": "2023-07-08 01:34:53",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "1aqq6tk",
+            "user_id": "user_85766",
+            "timestamp": "2024-02-14 23:55:24",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "16zruxr",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-05 00:32:52",
+            "confidence": 0.6
+          },
+          {
+            "post_id": "1719so6",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-06 19:26:35",
+            "confidence": 0.5
+          }
+        ]
+      },
+      {
+        "pattern_name": "false_dichotomy",
+        "total_occurrences": 4,
+        "unique_users": 1,
+        "first_seen": "2023-10-10 17:48:06",
+        "last_seen": "2024-04-18 02:21:39",
+        "recent_examples": [
+          {
+            "post_id": "174h88k",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-10 17:48:06",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "1c1dvuq",
+            "user_id": "user_64894",
+            "timestamp": "2024-04-11 20:32:28",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "1c1dyqk",
+            "user_id": "user_64894",
+            "timestamp": "2024-04-11 20:36:39",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "1c6h4mz",
+            "user_id": "user_64894",
+            "timestamp": "2024-04-18 02:21:39",
+            "confidence": 0.5
+          }
+        ]
+      },
+      {
+        "pattern_name": "bandwagon",
+        "total_occurrences": 3,
+        "unique_users": 2,
+        "first_seen": "2023-09-08 02:01:08",
+        "last_seen": "2023-10-26 19:29:37",
+        "recent_examples": [
+          {
+            "post_id": "16cm6qu",
+            "user_id": "user_42486",
+            "timestamp": "2023-09-08 02:01:08",
+            "confidence": 0.4
+          },
+          {
+            "post_id": "1b0ta3f",
+            "user_id": "user_42486",
+            "timestamp": "2024-02-27 05:25:47",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "17guc14",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-26 19:29:37",
+            "confidence": 0.4
+          }
+        ]
+      },
+      {
+        "pattern_name": "conspiracy_theory",
+        "total_occurrences": 3,
+        "unique_users": 2,
+        "first_seen": "2024-06-01 23:15:01",
+        "last_seen": "2023-10-08 19:12:14",
+        "recent_examples": [
+          {
+            "post_id": "1d5p7ob",
+            "user_id": "sanduskythrowaway600",
+            "timestamp": "2024-06-01 23:15:01",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "1d5pxjw",
+            "user_id": "sanduskythrowaway600",
+            "timestamp": "2024-06-01 23:48:03",
+            "confidence": 0.5
+          },
+          {
+            "post_id": "172wlx8",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-08 19:12:14",
+            "confidence": 0.4
+          }
+        ]
+      },
+      {
+        "pattern_name": "ad_hominem",
+        "total_occurrences": 3,
+        "unique_users": 1,
+        "first_seen": "2023-10-04 17:43:25",
+        "last_seen": "2024-05-12 00:11:35",
+        "recent_examples": [
+          {
+            "post_id": "16zit90",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-04 17:43:25",
+            "confidence": 0.6
+          },
+          {
+            "post_id": "16zitnv",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-04 17:44:11",
+            "confidence": 0.6
+          },
+          {
+            "post_id": "1cpkx89",
+            "user_id": "user_64894",
+            "timestamp": "2024-05-12 00:11:35",
+            "confidence": 0.7
+          }
+        ]
+      },
+      {
+        "pattern_name": "slippery_slope",
+        "total_occurrences": 2,
+        "unique_users": 2,
+        "first_seen": "2023-12-14 01:53:52",
+        "last_seen": "2023-10-11 16:16:09",
+        "recent_examples": [
+          {
+            "post_id": "18hmozk",
+            "user_id": "user_42486",
+            "timestamp": "2023-12-14 01:53:52",
+            "confidence": 0.6
+          },
+          {
+            "post_id": "1758xcn",
+            "user_id": "user_64894",
+            "timestamp": "2023-10-11 16:16:09",
+            "confidence": 0.6
+          }
+        ]
+      },
+      {
+        "pattern_name": "anecdotal_evidence",
+        "total_occurrences": 1,
+        "unique_users": 1,
+        "first_seen": "2024-05-17 02:42:11",
+        "last_seen": "2024-05-17 02:42:11",
+        "recent_examples": [
+          {
+            "post_id": "1ctk9lw",
+            "user_id": "user_64894",
+            "timestamp": "2024-05-17 02:42:11",
+            "confidence": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "markdown_report": "# Misinformation Detection Analysis Report\n\n**Generated:** 2025-11-29T11:50:52.627224\n\n---\n\n\n## Executive Summary\n\n- **Total Posts Analyzed:** 132\n- **Misinformation Detected:** 6\n- **High Risk Posts:** 5\n- **Critical Posts:** 0\n- **Unique Users:** 5\n- **Users Posting Misinformation:** 2\n- **Patterns Detected:** 9\n- **Topics Identified:** 3\n\n## High-Priority Posts\n\n| Post ID | User | Risk Level | Confidence | Patterns | Action |\n|---------|------|------------|------------|----------|--------|\n| 14n9gf7 | user_42486 | HIGH | 0.90 | false_authority | URGENT: Add warning label, reduce algorithmic ampl... |\n| 14tdtdl | user_42486 | HIGH | 0.90 | cherry_picking | URGENT: Add warning label, reduce algorithmic ampl... |\n| 1bez6i4 | user_42486 | HIGH | 0.80 | emotional_manipulation | URGENT: Add warning label, reduce algorithmic ampl... |\n| 1c7199j | user_85766 | HIGH | 0.80 | emotional_manipulation | URGENT: Add warning label, reduce algorithmic ampl... |\n| 16ult7y | user_64894 | HIGH | 0.70 | emotional_manipulation | URGENT: Add warning label, reduce algorithmic ampl... |\n\n### Detailed Post Information\n\n#### 1. Post 14n9gf7\n\n**User:** user_42486 (user_42486)\n**Platform:** reddit\n**Subreddit:** GlobalTalk\n**Timestamp:** 2023-07-01 03:19:08\n\n**Engagement:** 84 upvotes, 2 comments, 0 shares\n\n**Verdict:** MISINFORMATION\n**Confidence:** 0.90\n**Risk Level:** HIGH\n**Language:** en\n\n**Detected Patterns:**\n- false_authority\n\n**Manipulation Tactics:**\n- political_framing\n\n**Specific Examples:**\n- {'pattern': 'false_authority', 'text_snippet': 'Jair Bolsonaro banned from holding office', 'context': 'Jair Bolsonaro banned from holding office in Brazil for 8 years', 'start_char': 0, 'end_char': 41, 'confidence': 0.3}\n\n**Text Preview:**\n> Jair Bolsonaro banned from holding office in Brazil for 8 years\n\n**Recommended Action:** URGENT: Add warning label, reduce algorithmic amplification, queue for review\n\n#### 2. Post 14tdtdl\n\n**User:** user_42486 (user_42486)\n**Platform:** reddit\n**Subreddit:** GlobalTalk\n**Timestamp:** 2023-07-08 01:34:53\n\n**Engagement:** 25 upvotes, 2 comments, 0 shares\n\n**Verdict:** MISINFORMATION\n**Confidence:** 0.90\n**Risk Level:** HIGH\n**Language:** en\n\n**Detected Patterns:**\n- cherry_picking\n\n**Manipulation Tactics:**\n- statistical_manipulation\n\n**Specific Examples:**\n- {'pattern': 'cherry_picking', 'text_snippet': 'population growth is slowest since 1872', 'context': 'As Brazil surpasses 200 million people its population growth is slowest since 1872', 'start_char': 43, 'end_char': 82, 'confidence': 0.5}\n\n**Text Preview:**\n> As Brazil surpasses 200 million people its population growth is slowest since 1872\n\n**Recommended Action:** URGENT: Add warning label, reduce algorithmic amplification, queue for review\n\n#### 3. Post 1bez6i4\n\n**User:** user_42486 (user_42486)\n**Platform:** reddit\n**Subreddit:** GlobalTalk\n**Timestamp:** 2024-03-15 07:17:00\n\n**Engagement:** 3 upvotes, 0 comments, 0 shares\n\n**Verdict:** TRUE\n**Confidence:** 0.80\n**Risk Level:** HIGH\n**Language:** en\n\n**Detected Patterns:**\n- emotional_manipulation\n\n**Manipulation Tactics:**\n- mystery_amplification\n\n**Specific Examples:**\n- {'pattern': 'emotional_manipulation', 'text_snippet': 'motive and mastermind remain unknown', 'context': 'de Janeiro Councilwoman Marielle Franco’s murder, motive and mastermind remain unknown', 'start_char': 76, 'end_char': 112, 'confidence': 0.8}\n\n**Text Preview:**\n> On 6th anniversary of Rio de Janeiro Councilwoman Marielle Franco’s murder, motive and mastermind remain unknown\n\n**Recommended Action:** URGENT: Add warning label, reduce algorithmic amplification, queue for review\n\n#### 4. Post 1c7199j\n\n**User:** user_85766 (user_85766)\n**Platform:** reddit\n**Subreddit:** GlobalTalk\n**Timestamp:** 2024-04-18 19:45:11\n\n**Engagement:** 27 upvotes, 8 comments, 0 shares\n\n**Verdict:** TRUE\n**Confidence:** 0.80\n**Risk Level:** HIGH\n**Language:** en\n\n**Detected Patterns:**\n- emotional_manipulation\n\n**Manipulation Tactics:**\n- conflict_sensationalism\n\n**Specific Examples:**\n- {'pattern': 'emotional_manipulation', 'text_snippet': 'Israeli Settlers in West Bank Kill 2 Palestinians', 'context': 'Israeli Settlers in West Bank Kill 2 Palestinians', 'start_char': 0, 'end_char': 49, 'confidence': 0.8}\n\n**Text Preview:**\n> Israeli Settlers in West Bank Kill 2 Palestinians\n\n**Recommended Action:** URGENT: Add warning label, reduce algorithmic amplification, queue for review\n\n#### 5. Post 16ult7y\n\n**User:** user_64894 (user_64894)\n**Platform:** reddit\n**Subreddit:** GlobalTalk\n**Timestamp:** 2023-09-29 01:17:43\n\n**Engagement:** 22 upvotes, 1 comments, 0 shares\n\n**Verdict:** TRUE\n**Confidence:** 0.70\n**Risk Level:** HIGH\n**Language:** en\n\n**Detected Patterns:**\n- emotional_manipulation\n\n**Manipulation Tactics:**\n- religious_persecution_narrative\n\n**Specific Examples:**\n- {'pattern': 'emotional_manipulation', 'text_snippet': 'Christian Community Decimated', 'context': '[Armenia] Age-old Christian Community Decimated', 'start_char': 18, 'end_char': 47, 'confidence': 0.8}\n\n**Text Preview:**\n> [Armenia] Age-old Christian Community Decimated\n\n**Recommended Action:** URGENT: Add warning label, reduce algorithmic amplification, queue for review\n\n\n## Top Offenders\n\n| User ID | Username | Total Posts | Misinfo Posts | Misinfo Rate | Action |\n|---------|----------|-------------|---------------|--------------|--------|\n| user_64894 | user_64894 | 96 | 4 | 4.2% | MONITOR: Track for pattern changes |\n| user_42486 | user_42486 | 24 | 2 | 8.3% | MONITOR: Track for pattern changes |\n| user_10705 | user_10705 | 1 | 0 | 0.0% | MONITOR: Track for pattern changes |\n| sanduskythrowaway600 | sanduskythrowaway600 | 4 | 0 | 0.0% | MONITOR: Track for pattern changes |\n| user_85766 | user_85766 | 7 | 0 | 0.0% | MONITOR: Track for pattern changes |\n\n### Detailed User Profiles\n\n#### 1. user_64894 (user_64894)\n\n**Statistics:**\n- Total Posts: 96\n- Misinformation Posts: 4\n- High Confidence Misinfo: 0\n- Misinformation Rate: 4.2%\n- Average Confidence: 0.25\n\n**Activity Period:**\n- First Seen: 2023-09-04 23:35:54\n- Last Seen: 2024-05-17 02:42:11\n\n**Patterns Used:**\n- emotional_manipulation\n- false_authority\n- ad_hominem\n- cherry_picking\n- conspiracy_theory\n- false_dichotomy\n- slippery_slope\n- bandwagon\n- anecdotal_evidence\n\n**Manipulation Tactics:**\n- fear_mongering\n- pseudoscience_marketing\n- conflict_escalation\n- media_control\n- humanitarian_crisis_narrative\n- religious_persecution_narrative\n- displacement_narrative\n- cultural_destruction_narrative\n- character_assassination\n- inflammatory_language\n- exaggeration\n- selective_reporting\n- geopolitical_speculation\n- oversimplification\n- territorial_aggression\n- shock_value\n- speculation\n- appeal_to_authority\n- diplomatic_tension_escalation\n- expert_citation\n- character_attack\n- historical_guilt\n- personal_accusation\n\n**Languages:** en, da, unknown\n\n**Recommended Action:** MONITOR: Track for pattern changes\n\n#### 2. user_42486 (user_42486)\n\n**Statistics:**\n- Total Posts: 24\n- Misinformation Posts: 2\n- High Confidence Misinfo: 2\n- Misinformation Rate: 8.3%\n- Average Confidence: 0.80\n\n**Activity Period:**\n- First Seen: 2023-07-01 03:19:08\n- Last Seen: 2024-06-15 08:43:05\n\n**Patterns Used:**\n- false_authority\n- cherry_picking\n- emotional_manipulation\n- bandwagon\n- slippery_slope\n\n**Manipulation Tactics:**\n- political_framing\n- statistical_manipulation\n- political_tension_amplification\n- public_perception_management\n- fear_mongering\n- fear_escalation\n- mystery_amplification\n\n**Languages:** en\n\n**Recommended Action:** MONITOR: Track for pattern changes\n\n#### 3. user_10705 (user_10705)\n\n**Statistics:**\n- Total Posts: 1\n- Misinformation Posts: 0\n- High Confidence Misinfo: 0\n- Misinformation Rate: 0.0%\n- Average Confidence: 0.80\n\n**Activity Period:**\n- First Seen: 2024-06-07 05:25:07\n- Last Seen: 2024-06-07 05:25:07\n\n**Languages:** en\n\n**Recommended Action:** MONITOR: Track for pattern changes\n\n#### 4. sanduskythrowaway600 (sanduskythrowaway600)\n\n**Statistics:**\n- Total Posts: 4\n- Misinformation Posts: 0\n- High Confidence Misinfo: 0\n- Misinformation Rate: 0.0%\n- Average Confidence: 0.82\n\n**Activity Period:**\n- First Seen: 2024-06-01 23:15:01\n- Last Seen: 2024-06-06 12:31:18\n\n**Patterns Used:**\n- conspiracy_theory\n\n**Manipulation Tactics:**\n- doom_narrative\n\n**Languages:** en\n\n**Recommended Action:** MONITOR: Track for pattern changes\n\n#### 5. user_85766 (user_85766)\n\n**Statistics:**\n- Total Posts: 7\n- Misinformation Posts: 0\n- High Confidence Misinfo: 0\n- Misinformation Rate: 0.0%\n- Average Confidence: 0.80\n\n**Activity Period:**\n- First Seen: 2024-02-01 22:38:35\n- Last Seen: 2024-05-17 02:58:49\n\n**Patterns Used:**\n- cherry_picking\n- emotional_manipulation\n\n**Manipulation Tactics:**\n- statistical_dramatization\n- fear_mongering\n- conflict_sensationalism\n\n**Languages:** en\n\n**Recommended Action:** MONITOR: Track for pattern changes\n\n\n## Pattern Breakdown\n\n| Pattern | Occurrences | Unique Users | First Seen | Last Seen |\n|---------|-------------|--------------|------------|-----------|\n| emotional_manipulation | 20 | 3 | 2023-08-19 07:20 | 2024-05-12 00:11 |\n| false_authority | 9 | 2 | 2023-07-01 03:19 | 2024-04-24 20:53 |\n| cherry_picking | 4 | 3 | 2023-07-08 01:34 | 2023-10-06 19:26 |\n| false_dichotomy | 4 | 1 | 2023-10-10 17:48 | 2024-04-18 02:21 |\n| bandwagon | 3 | 2 | 2023-09-08 02:01 | 2023-10-26 19:29 |\n| conspiracy_theory | 3 | 2 | 2024-06-01 23:15 | 2023-10-08 19:12 |\n| ad_hominem | 3 | 1 | 2023-10-04 17:43 | 2024-05-12 00:11 |\n| slippery_slope | 2 | 2 | 2023-12-14 01:53 | 2023-10-11 16:16 |\n| anecdotal_evidence | 1 | 1 | 2024-05-17 02:42 | 2024-05-17 02:42 |\n\n### Detailed Pattern Information\n\n#### 1. emotional_manipulation\n\n**Total Occurrences:** 20\n**Unique Users:** 3\n**First Seen:** 2023-08-19 07:20:07\n**Last Seen:** 2024-05-12 00:11:35\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 16zitnv | user_64894 | 2023-10-04 17:44 | 0.70 |\n| 179tqpy | user_64894 | 2023-10-17 16:43 | 0.70 |\n| 17ehj8g | user_64894 | 2023-10-23 18:52 | 0.60 |\n| 1c6h4mz | user_64894 | 2024-04-18 02:21 | 0.60 |\n| 1cpkx89 | user_64894 | 2024-05-12 00:11 | 0.60 |\n\n#### 2. false_authority\n\n**Total Occurrences:** 9\n**Unique Users:** 2\n**First Seen:** 2023-07-01 03:19:08\n**Last Seen:** 2024-04-24 20:53:58\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 16zowzf | user_64894 | 2023-10-04 22:37 | 0.50 |\n| 170es7v | user_64894 | 2023-10-05 18:47 | 0.50 |\n| 175mh1p | user_64894 | 2023-10-12 03:23 | 0.50 |\n| 17mypuo | user_64894 | 2023-11-04 00:16 | 0.50 |\n| 1cbxfho | user_64894 | 2024-04-24 20:53 | 0.40 |\n\n#### 3. cherry_picking\n\n**Total Occurrences:** 4\n**Unique Users:** 3\n**First Seen:** 2023-07-08 01:34:53\n**Last Seen:** 2023-10-06 19:26:35\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 14tdtdl | user_42486 | 2023-07-08 01:34 | 0.50 |\n| 1aqq6tk | user_85766 | 2024-02-14 23:55 | 0.50 |\n| 16zruxr | user_64894 | 2023-10-05 00:32 | 0.60 |\n| 1719so6 | user_64894 | 2023-10-06 19:26 | 0.50 |\n\n#### 4. false_dichotomy\n\n**Total Occurrences:** 4\n**Unique Users:** 1\n**First Seen:** 2023-10-10 17:48:06\n**Last Seen:** 2024-04-18 02:21:39\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 174h88k | user_64894 | 2023-10-10 17:48 | 0.50 |\n| 1c1dvuq | user_64894 | 2024-04-11 20:32 | 0.50 |\n| 1c1dyqk | user_64894 | 2024-04-11 20:36 | 0.50 |\n| 1c6h4mz | user_64894 | 2024-04-18 02:21 | 0.50 |\n\n#### 5. bandwagon\n\n**Total Occurrences:** 3\n**Unique Users:** 2\n**First Seen:** 2023-09-08 02:01:08\n**Last Seen:** 2023-10-26 19:29:37\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 16cm6qu | user_42486 | 2023-09-08 02:01 | 0.40 |\n| 1b0ta3f | user_42486 | 2024-02-27 05:25 | 0.50 |\n| 17guc14 | user_64894 | 2023-10-26 19:29 | 0.40 |\n\n#### 6. conspiracy_theory\n\n**Total Occurrences:** 3\n**Unique Users:** 2\n**First Seen:** 2024-06-01 23:15:01\n**Last Seen:** 2023-10-08 19:12:14\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 1d5p7ob | sanduskythrowaway600 | 2024-06-01 23:15 | 0.50 |\n| 1d5pxjw | sanduskythrowaway600 | 2024-06-01 23:48 | 0.50 |\n| 172wlx8 | user_64894 | 2023-10-08 19:12 | 0.40 |\n\n#### 7. ad_hominem\n\n**Total Occurrences:** 3\n**Unique Users:** 1\n**First Seen:** 2023-10-04 17:43:25\n**Last Seen:** 2024-05-12 00:11:35\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 16zit90 | user_64894 | 2023-10-04 17:43 | 0.60 |\n| 16zitnv | user_64894 | 2023-10-04 17:44 | 0.60 |\n| 1cpkx89 | user_64894 | 2024-05-12 00:11 | 0.70 |\n\n#### 8. slippery_slope\n\n**Total Occurrences:** 2\n**Unique Users:** 2\n**First Seen:** 2023-12-14 01:53:52\n**Last Seen:** 2023-10-11 16:16:09\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 18hmozk | user_42486 | 2023-12-14 01:53 | 0.60 |\n| 1758xcn | user_64894 | 2023-10-11 16:16 | 0.60 |\n\n#### 9. anecdotal_evidence\n\n**Total Occurrences:** 1\n**Unique Users:** 1\n**First Seen:** 2024-05-17 02:42:11\n**Last Seen:** 2024-05-17 02:42:11\n\n**Recent Examples:**\n\n| Post ID | User ID | Timestamp | Confidence |\n|---------|---------|-----------|------------|\n| 1ctk9lw | user_64894 | 2024-05-17 02:42 | 0.50 |\n\n\n## Topic Analysis\n\n| Topic | Total Posts | Misinfo Posts | Misinfo Rate | Top Keywords |\n|-------|-------------|---------------|--------------|--------------|\n| health_remarkable_arnold | 37 | 3 | 8.1% | health, remarkable, arnold... |\n| brazil_brazils_amazon | 22 | 2 | 9.1% | brazil, brazils, amazon... |\n| armenia_azerbaijan_nagornokarabakh | 20 | 1 | 5.0% | armenia, azerbaijan, nagornokarabakh... |\n\n### Detailed Topic Breakdown\n\n#### 1. health_remarkable_arnold\n\n**Total Posts:** 37\n**Misinformation Posts:** 3\n**Misinformation Rate:** 8.1%\n**Average Confidence:** 0.30\n\n**Keywords:** health, remarkable, arnold, exercise, schwarzenegger, weight, advantages, remarkable health, sleep, stress\n\n#### 2. brazil_brazils_amazon\n\n**Total Posts:** 22\n**Misinformation Posts:** 2\n**Misinformation Rate:** 9.1%\n**Average Confidence:** 0.80\n\n**Keywords:** brazil, brazils, amazon, indigenous, lula, territory, amid, yanomami indigenous, indigenous territory, presence\n\n#### 3. armenia_azerbaijan_nagornokarabakh\n\n**Total Posts:** 20\n**Misinformation Posts:** 1\n**Misinformation Rate:** 5.0%\n**Average Confidence:** 0.49\n\n**Keywords:** armenia, azerbaijan, nagornokarabakh, artsakh, media, armenia armenia, armenian, azerbaijani, cover hostilities, cover\n\n\n## Temporal Trends\n"
+}

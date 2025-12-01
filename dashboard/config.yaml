@@ -1,0 +1,8 @@
+# Dashboard Configuration
+
+ollama_endpoint: "http://192.168.10.68:11434"
+ollama_model: "gemma3:4b"
+auto_refresh_interval: 5
+max_history_items: 50
+default_batch_size: 10
+enable_debug_mode: false
