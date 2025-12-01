@@ -2,3 +2,6 @@ __pycache__/
 *.md
 *.sh
 *.bat
+!README.md
+!KIROWEEN_HACKATHON_REVIEW.md
+!TECHNICAL_WRITEUP.md
