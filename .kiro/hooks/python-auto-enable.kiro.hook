@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "name": "Auto Python Environment",
+  "description": "Automatically detects when Python commands are needed and enables the conda agent environment without requiring manual user clicking",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "*.py",
+      "*.ipynb",
+      "requirements.txt",
+      "setup.py",
+      "pyproject.toml"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A Python file or Python-related configuration has been modified. Automatically use the conda agent environment at $env:USERPROFILE\\miniconda3\\envs\\agent\\python.exe for any Python operations. Use the exact pattern: & \"$env:USERPROFILE\\miniconda3\\envs\\agent\\python.exe\" [command]. Do not ask for manual activation - proceed directly with Python operations using the conda environment."
+  }
+}
