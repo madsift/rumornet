@@ -185,10 +185,7 @@ The dashboard supports the following environment variables:
 
 ### Lambda Function
 
-The Lambda function is deployed at:
-```
-https://mgbsx1x8l1.execute-api.us-east-1.amazonaws.com/Prod/analyze
-```
+Lambda Deployment is done
 
 **Timeout Handling**: API Gateway has a 29-second timeout. For longer analyses, the dashboard automatically polls S3 for results.
 
@@ -246,35 +243,9 @@ rumors/
 - **Memory**: 481 MB max in Lambda
 - **Patterns Detected**: 70+ per analysis
 
-## 🐛 Troubleshooting
-
-### Dashboard not showing results
-
-**Issue**: 504 Gateway Timeout
-**Solution**: Dashboard automatically polls S3. Wait up to 10 minutes for results.
-
-### S3 history not loading
-
-**Issue**: Missing AWS credentials
-**Solution**: Set `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables
-
-### Docker container not updating
-
-**Issue**: Old code cached in image
-**Solution**: Rebuild with `docker build --no-cache`
-
-## 📝 License
-
-[Add your license here]
-
-## 🤝 Contributing
-
-[Add contribution guidelines]
 
 ## 📧 Contact
 
-[Add contact information]
+[madsift@gmail.com]
 
 ---
-
-Built with ❤️ using AWS Bedrock, Lambda, and Streamlit
